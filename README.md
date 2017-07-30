@@ -12,26 +12,26 @@ Bamazon is a CLI Amazon-inspired storefront using MySQL for database storage.
 *If the item has sufficient stock, then the order is completed and the user is given a total price for the purchase. Then they are prompted to keep shopping or not.
 	*The quantity number is then decreased by the amount purchased.
 
-![Customer View](images/customercompleted.png)
+![Customer View](images/customercompleted.PNG)
 
-![Taboo number decreased](images/amountdecreased.png)
+![Taboo number decreased](images/amountdecreased.PNG)
 
 *If there is insufficient stock, then the customer receives an error and is shown the available item table again.
 
-![Insufficient Stock](images/insufficient.png)
+![Insufficient Stock](images/insufficient.PNG)
 
 *If the customer enters a product id that does not correspond to a product in the inventory, an error is displayed and they are prompted to try again
 
-![Invalid Product Id](images/invalidproduct.png)
+![Invalid Product Id](images/invalidproduct.PNG)
 
 *If the customer tries to enter anything besides an integer, they are given an error and must correct it before continuing with the purchase.
 
-![Not An Integer](images/Nan.png)
+![Not An Integer](images/Nan.PNG)
 
 *Once the customer has completed their purchase. They are prompted to either Keep Shopping or Leave Bamazon. If they Keep Shopping, then the available products are displayed and they go through the purchasing prompts.
 *If they choose to Leave Bamazon, the connection to the MySQL database is disconnected and the session ended.
 
-![Leave Bamazon](images/leave.png)
+![Leave Bamazon](images/leave.PNG)
 
 #### Contributors:
 ***

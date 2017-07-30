@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "NodeJS &amp; MySQL app",
+  "main": "bamazoncustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnrose/bamazon.git"
+  },
+  "author": "caitlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnrose/bamazon/issues"
+  },
+  "homepage": "https://github.com/cnrose/bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "inquirer": "^3.2.1",
+    "mysql": "^2.14.0"
+  }
+}

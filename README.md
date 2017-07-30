@@ -26,7 +26,7 @@ Bamazon is a CLI Amazon-inspired storefront using MySQL for database storage.
 
 *If the customer tries to enter anything besides an integer, they are given an error and must correct it before continuing with the purchase.
 
-![Not An Integer](images/Nan.PNG)
+![Not An Integer](images/NaN.PNG)
 
 *Once the customer has completed their purchase. They are prompted to either Keep Shopping or Leave Bamazon. If they Keep Shopping, then the available products are displayed and they go through the purchasing prompts.
 *If they choose to Leave Bamazon, the connection to the MySQL database is disconnected and the session ended.
